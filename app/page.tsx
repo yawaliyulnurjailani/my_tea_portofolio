@@ -16,6 +16,11 @@ const data = [
     description: 'This is one of the dependencies!',
     url_npm: 'https://www.npmjs.com/package/@yawaliyul/hendra',
   },
+  {
+    name: 'Bintan',
+    description: 'This is one of the dependencies!',
+    url_npm: 'https://www.npmjs.com/package/@yawaliyul/bintan',
+  },
 ];
 
 export default function Home() {
