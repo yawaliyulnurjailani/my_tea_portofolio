@@ -36,6 +36,11 @@ const data = [
     description: 'This is one of the dependencies!',
     url_npm: 'https://www.npmjs.com/package/@yawaliyul/riski',
   },
+  {
+    name: 'Ikbal',
+    description: 'This is one of the dependencies!',
+    url_npm: 'https://www.npmjs.com/package/@yawaliyul/ikbal',
+  },
 ];
 
 export default function Home() {
