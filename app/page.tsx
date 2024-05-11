@@ -48,7 +48,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-center p-24">
       <Image
         src="/tea.jpeg"
-        alt="Next.js Logo"
+        alt="Tea Portofolio Logo"
         width={180}
         height={37}
         priority
@@ -75,7 +75,7 @@ export default function Home() {
             <a
               key={index} // Add a unique key prop
               href={item.url_npm}
-              className="group rounded-lg border px-5 py-5 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 mr-2 ml-2"
+              className="group rounded-lg border px-5 py-5 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 mt-2 mb-2 mr-2 ml-2"
               target="_blank"
               rel="noopener noreferrer"
             >
