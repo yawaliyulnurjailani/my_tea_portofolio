@@ -1,7 +1,6 @@
 {
-  "name": "my_tea_portofolio",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@yawaliyul/sofii",
+  "version": "1.1.1",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,18 +8,31 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "my_tea_portofolio": "^1.1.1",
+    "next": "^14.2.3",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.3"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.3"
-  }
+    "typescript": "^5"
+  },
+  "description": "This app is only for tea portfolio on npm",
+  "main": "page.tsx",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yawaliyulnurjailani/my_tea_portofolio"
+  },
+  "author": "yawaliyulnurjailani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yawaliyulnurjailani/my_tea_portofolio/issues"
+  },
+  "homepage": "https://github.com/yawaliyulnurjailani/my_tea_portofolio#readme"
 }
